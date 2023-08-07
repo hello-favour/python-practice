@@ -16,9 +16,7 @@ def scope_check(custom_message):
   print(my_var)
 scope_check("am a good developer")
 
-input("give me your age \n"), """
-
-num_one = 20
+input("give me your age \n"), num_one = 20
 
 def name_of_boys():
     if num_one > 50:
@@ -28,5 +26,9 @@ def name_of_boys():
 
 user_input = "",
 while user_input != "exit":
-    user_input = input("hey user enter number of days i will convert it to hours \n")
-    name_of_boys(),
+    user_input = input("hey user enter number of days i will convert it to hours ")
+    name_of_boys() """
+
+
+[1,3,5].count()
+"2, 3".split()

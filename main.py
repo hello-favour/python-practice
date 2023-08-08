@@ -28,7 +28,24 @@ user_input = "",
 while user_input != "exit":
     user_input = input("hey user enter number of days i will convert it to hours ")
     name_of_boys() """
+"""  [1,3,5].count()
+"2, 3".split() """
 
+def days_in_week(num_of_days, conversion_unit):
+    if conversion_unit == "hours":
+        return  f"{num_of_days} days are {num_of_days * 24} hours"
+    elif conversion_unit == "minutes":
+        return f"{num_of_days} days are {num_of_days * 24 * 60} minutes"
+    else:
+        return "unsupported unit",
 
-[1,3,5].count()
-"2, 3".split()
+user_input = "",
+def check_days_now():
+    if user_input == "hours":
+        return input("number of hours in ")
+    elif user_input == "minutes":
+        return  input("number of minutes")
+    else:
+        return "no one match"
+
+check_days_now()

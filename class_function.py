@@ -14,11 +14,4 @@ class User:
     def get_user_info(self):
         print(f"user {self.name} currently working as a {self.current_job_title}. you can contact them at {self.email} and his password is {self.password}")
 
-app_user_info = User("favour@gmail.com","favour", "123", "developer")
-app_user_info.get_user_info()
 
-app_user_info.change_job_title("software engineer")
-app_user_info.get_user_info()
-
-app_user_info.change_password("flutter")
-app_user_info.get_user_info()
